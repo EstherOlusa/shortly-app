@@ -98,30 +98,36 @@
     <section class="container">
       <div class="section-1">
         <div class="section-1-content">
-          <h1 class="h1">More than just shorter links</h1>
+          <div class="c-container">
+            <div class="section-1-container">
+              <h1 class="h1">More than just shorter links</h1>
 
-          <p class="p-1">
-            Build your brand’s recognition and get detailed insights on how your
-            links are performing.
-          </p>
-          <div class="btn-1">
-            <button class="btn">Get Started</button>
+              <p class="p-1">
+                Build your brand’s recognition and get detailed insights on how
+                your links are performing.
+              </p>
+              <div class="btn-1">
+                <button class="btn">Get Started</button>
+              </div>
+            </div>
           </div>
         </div>
         <div class="section-1-content-2">
           <div class="form">
             <form class="form-data" action="">
-              <input
-                class="input"
-                type="text"
-                placeholder="Shorten a link here..."
-                id="link"
-              />
-              <label class="label" for="link"
-                ><button class="label-button">Shorten it!</button>
-              </label>
+              <div class="input-data">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Shorten a link here..."
+                  id="link"
+                />
+                <button class="label-button">Shorten it!</button>
+              </div>
+              <p class="error-text active"></p>
             </form>
           </div>
+          <div class="link-list"></div>
 
           <h2 class="h2">Advanced Statistics</h2>
 
@@ -176,7 +182,7 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="footer-container">
+      <div class="footer-container c-container">
         <div class="footer-logo">
           <svg xmlns="http://www.w3.org/2000/svg" width="121" height="33">
             <path
@@ -250,5 +256,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+    <script src="app.js"></script>
   </body>
 </html>
